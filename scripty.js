@@ -27,3 +27,10 @@ function fibonacci(fibLen){
 
 let fibLen = prompt("Enter fibLength: ");
 fibonacci(fibLen);
+
+let text1 = "Welcome to the world. The world is safe"
+let text2 = text1.replaceAll("world", "den");
+
+console.log(text2);
+
+console.log(document.querySelector(".top"))
